@@ -26,7 +26,7 @@ public class Calculator {
         expression = expression.replaceAll(" ", "");
         double result = Double.parseDouble(expression);
         return result;
-    };
+    }
 
     private double basicAddition_multipleAddition_subtractions(String expression) {
         expression = expression.replaceAll(" ", "");
